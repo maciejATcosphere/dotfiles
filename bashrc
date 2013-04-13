@@ -1,4 +1,5 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
+
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -113,19 +114,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-gtk-window-decorator --replace &
-
-# BASH - custom aliases
-alias ls='ls -aF --color=always'
-alias ll='ls -l'
-alias ..='cd ..'
-alias ..='cd ../..'
-# GIT - custom aliases
-alias gts='git status'
-alias gta='git add'
-alias gtl='git log'
-alias gtb='git branch'
-alias gtc='git checkout'
-alias gtcm='git commit -m'
-# python aliases
-alias psp='./manage.py shell_plus'
